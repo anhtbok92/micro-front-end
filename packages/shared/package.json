@@ -1,0 +1,25 @@
+{
+  "name": "shared",
+  "version": "0.0.1",
+  "description": "> TODO: description",
+  "author": "anh.nguyen67 <anh.nguyen67@onemount.com>",
+  "homepage": "",
+  "license": "ISC",
+  "source": "lib/index.js",
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "scripts": {
+    "dev": "microbundle watch --jsx React.createElement"
+  },
+  "dependencies": {
+    "microbundle": "^0.15.0",
+    "next": "^12.1.6",
+    "react": "^18.1.0"
+  }
+}
